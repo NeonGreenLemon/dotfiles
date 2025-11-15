@@ -1,0 +1,12 @@
+{{ if stat (joinPath .chezmoi.homeDir ".ssh" "id_ed25519") }}
+    {{ range .git_init_projects }}
+      ["Work/code/{{- .name -}}"]
+        type = "git-repo"
+        url = "git@github.com:NeonGreenLemon/{{- .name -}}.git"
+    {{ end }}
+{{ else }}
+ssh-key missing
+{{ end }}
+
+
+
