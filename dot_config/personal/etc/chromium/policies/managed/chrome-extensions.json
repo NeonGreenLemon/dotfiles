@@ -15,6 +15,13 @@
       "installation_mode": "normal_installed",
       "update_url":
          "https://clients2.google.com/service/update2/crx"
+    },
+    "dbepggeogbaibhgnhhndojpepiihcmeb": {
+      "name": "Vimiumn",
+      "installation_mode": "normal_installed",
+      "update_url":
+         "https://clients2.google.com/service/update2/crx",
+      "toolbar_pin": "default_pinned"
     }
   }
 }
